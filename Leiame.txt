@@ -1,0 +1,14 @@
+# Install tailwindcss
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+# Configuracao
+// postcss.config.js
+module.exports = {
+  plugins: {
+	tailwindcss: {},
+	autoprefixer: {},
+  }
+}
+
+# Inicializacao do tailwindcss
+npx tailwindcss init
